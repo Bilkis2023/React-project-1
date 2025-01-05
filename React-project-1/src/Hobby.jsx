@@ -1,11 +1,18 @@
 
 
-// function Hobby() {
-//     return(
-//         <Hobby> 
-//             <h1> My hobbies list is here </h1>
-//         </Hobby>
-//     )
-// }
+function Hobby() {
+   const coding = "Coding & Debugging";
+   const gardening = "gardening";
 
-// export default Hobby
+    return(
+        <Hobby> 
+            <h1> My hobbies list is here: </h1>
+            <ul>
+                <li>{coding}</li>
+                <li>{gardening}</li>
+            </ul>
+        </Hobby>
+    )
+}
+
+export default Hobby
